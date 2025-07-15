@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,3 +29,35 @@
   <script src="main.js"></script>
 </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>OCR Image Extractor</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🧠 Smart OCR Text Extractor</h1>
+  <main>
+    <div class="container">
+      <input type="file" id="imageInput" accept="image/*" multiple />
+      <pre id="output">Waiting for image...</pre>
+    </div>
+  </main>
+
+  <!-- Loader Overlay -->
+  <div class="overlay">
+    <span class="loader"></span>
+  </div>
+
+  <!-- OpenCV -->
+  <script async src="https://docs.opencv.org/4.5.5/opencv.js" onload="onOpenCvReady();"></script>
+  <!-- Tesseract -->
+  <script src="https://cdn.jsdelivr.net/npm/tesseract.js@4.1.1/dist/tesseract.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+>>>>>>> 8565370890dd99cb2484e0d67532d363be975368
