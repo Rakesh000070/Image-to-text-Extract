@@ -55,3 +55,28 @@ Note: OCR occurs entirely in the browser—no back-end needed.
 - Tweak tesseract.js options (e.g., language, worker count, OCR configurations).
 - Enhance UX: add loading indicators, progress bar.
 - Support more file formats (PNG, TIFF, PDFs, etc.).
+
+## ✅ Dependencies
+- Tesseract.js (via CDN or NPM)
+- Modern web browser with ES6 support
+
+## 🚧 Troubleshooting
+- No text output? Try clear, high-contrast images.
+- OCR errors? Clean image (rotation, noise removal), choose correct OCR language.
+- Slow performance? Large images may lag—consider resizing them before OCR.
+
+## 👩‍💻 Contributing
+- Contributions welcome! To get started:
+- Fork the repo
+- Create a new branch (git checkout -b feature/my-new-feature)
+- Make your changes & commit (git commit -am 'Add awesome feature')
+- Push (git push origin feature/my-new-feature)
+- Open a Pull Request
+
+## 📝 License
+This project is licensed under the MIT License.
+
+yaml
+Copy
+Edit
+
