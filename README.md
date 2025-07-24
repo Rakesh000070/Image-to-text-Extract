@@ -50,3 +50,8 @@ Runs OCR using Tesseract.js.
 Outputs recognized text into the UI.
 
 Note: OCR occurs entirely in the browser—no back-end needed.
+
+🛠️ Customize
+- Tweak tesseract.js options (e.g., language, worker count, OCR configurations).
+- Enhance UX: add loading indicators, progress bar.
+- Support more file formats (PNG, TIFF, PDFs, etc.).
