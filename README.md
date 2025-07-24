@@ -37,7 +37,12 @@ Option 2: Serve from a local web server
 bash
 Copy
 
-## 🧠 How It Works
+```
+# Using Python 3
+python3 -m http.server 8000
+open http://localhost:8000
+```
+🧠 How It Works
 main.js:
 
 Handles image upload via drag‑drop or file input.
@@ -49,10 +54,3 @@ Runs OCR using Tesseract.js.
 Outputs recognized text into the UI.
 
 Note: OCR occurs entirely in the browser—no back-end needed.
-Edit
-```
-# Using Python 3
-python3 -m http.server 8000
-open http://localhost:8000
-```
-
