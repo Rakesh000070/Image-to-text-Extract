@@ -76,7 +76,5 @@ Note: OCR occurs entirely in the browser—no back-end needed.
 ## 📝 License
 This project is licensed under the MIT License.
 
-yaml
-Copy
-Edit
+
 
