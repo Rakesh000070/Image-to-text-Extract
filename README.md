@@ -37,9 +37,9 @@ Option 2: Serve from a local web server
 bash
 Copy
 Edit
-```
+
 # Using Python 3
 python3 -m http.server 8000
 open http://localhost:8000
-```
+
 
