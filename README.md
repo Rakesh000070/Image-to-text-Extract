@@ -44,13 +44,9 @@ open http://localhost:8000
 ```
 🧠 How It Works
 main.js:
-
 Handles image upload via drag‑drop or file input.
-
 Reads file with FileReader.
-
 Runs OCR using Tesseract.js.
-
 Outputs recognized text into the UI.
 
 Note: OCR occurs entirely in the browser—no back-end needed.
