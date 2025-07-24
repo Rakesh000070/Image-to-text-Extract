@@ -27,9 +27,9 @@ A simple client-side web app that extracts text from images using OCR.
 ├── style.css        ← Stylesheet
 ├── main.js          ← JavaScript logic + OCR integration
 └── /images          ← UI assets (icons, demos, etc.)
+```
 
-
-##⚙️ Setup
+## ⚙️ Setup
 Option 1: Open locally
 Double-click index.html in your browser.
 
@@ -37,9 +37,9 @@ Option 2: Serve from a local web server
 bash
 Copy
 Edit
-
+```
 # Using Python 3
 python3 -m http.server 8000
 open http://localhost:8000
-
+```
 
