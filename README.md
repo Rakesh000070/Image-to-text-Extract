@@ -29,7 +29,7 @@ A simple client-side web app that extracts text from images using OCR.
 └── /images          ← UI assets (icons, demos, etc.)
 
 
-## ⚙️ Setup
+##⚙️ Setup
 Option 1: Open locally
 Double-click index.html in your browser.
 
